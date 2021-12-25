@@ -26,15 +26,7 @@ export class SignupComponent implements OnInit {
   }
 
   signUp(){
-  //   this.http.post<any>("http://localhost:3000/signupUser", this.signUpForm.value)
-  //   .subscribe(res=>{
-  //     alert("Signup Successfull");
-  //     this.signUpForm.reset();
-  //     this.router.navigate(['login'])
-  //   },err=>{
-  //     alert("Something went wrong");
-  //   })
-  // }
+
   this.signupObj.FullName = this.signUpForm.value.fullname;
   this.signupObj.UserName = this.signUpForm.value.username;
   this.signupObj.Password = this.signUpForm.value.password;
