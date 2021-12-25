@@ -7,8 +7,8 @@ import {map} from 'rxjs/operators'
 })
 export class ApiService{
 
-  public loginAPIUrl : string = "https://http://localhost:3000/employees/Login/";
-  public employeeAPIUrl : string = "https://http://localhost:3000/employees/";
+  public loginAPIUrl : string = "https://localhost:44371/api/Login/";
+  public employeeAPIUrl : string = "https://localhost:44371/api/Employee/";
   constructor(private _http : HttpClient) { }
 
   PostEmployee(data : any){
